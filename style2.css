@@ -1,0 +1,29 @@
+body{
+    background-color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    }
+    .content{
+    max-width: 800px;
+    margin: auto;
+    }
+    @media (max-width:600px){
+    body{
+    background-color: aqua;
+    font-size: 16px;
+    text-align: center;
+}
+}
+@media (min-width:601px) and (max-width:900px){
+body{
+font-size: 20px;
+}
+}
+@media (min0width:901px){
+    body{
+    font-size: 22px;
+    }
+    }
